@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(179, 70, 10);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Profile {
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    background-color: green;
+    margin: 20px;
+    border-radius: 20px;
+    color: white;
+}
+.Profile img {
+    margin-right: 20px;
+}
+.Profile div {
+    line-height: 1.5;
+}
+.Profile div1 {
+    display: flex;
+    flex-direction: column;
+}
