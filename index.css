@@ -1,29 +1,78 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+/* General styling */
 body {
-    background-color: rgb(179, 70, 10);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Arial, sans-serif;
+    background-color: #e0f7fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 20px;
 }
 
-.Profile {
-    display: flex;
-    align-items: center;
-    padding: 30px;
-    background-color: green;
-    margin: 20px;
-    border-radius: 20px;
+/* Container for the main page */
+.container {
+    text-align: center;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    border-radius: 10px;
+    max-width: 400px;
+    width: 100%;
+}
+
+/* Button styling */
+.btn-view-profile, .btn-back {
+    background-color: #00796b;
     color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s;
 }
+
+.btn-view-profile:hover, .btn-back:hover {
+    background-color: #004d40;
+}
+
+/* Profile container styling */
+.Profile {
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+}
+
+/* Profile image styling */
 .Profile img {
-    margin-right: 20px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
 }
-.Profile div {
-    line-height: 1.5;
+
+/* Profile information styling */
+.Info {
+    text-align: center;
 }
-.Profile div1 {
-    display: flex;
-    flex-direction: column;
+
+.Name {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #00796b;
+    margin-bottom: 10px;
+}
+
+.StudentID,
+.Email,
+.Cause {
+    margin: 8px 0;
+    font-size: 1.1em;
+    color: #004d40;
 }
